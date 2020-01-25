@@ -1,0 +1,26 @@
+{
+  "name": "token-service",
+  "version": "1.0.0",
+  "description": "Service that provides token authentication",
+  "main": "app.js",
+  "scripts": {
+    "main": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Santos <joaopns05@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ioredis": "^4.14.1",
+    "koa": "^2.8.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "uid-generator": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
